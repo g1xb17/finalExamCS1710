@@ -15,6 +15,7 @@ public class chapter3 {
 			return "large";
 		}
 	}
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 /**
 		try { 
@@ -64,7 +65,35 @@ public class chapter3 {
 				    case 1: System.out.println("one");
 				    case 2: System.out.println("two");
 				}
+		System.out.println("\n\n\n");
+	
+		//1
+		if (false && false) System.out.println("1."+true);
+		else System.out.println("1."+false);
 		
+		//2
+		if (true && true) System.out.println("2."+true);
+		else System.out.println("2."+false);
+		
+		//3
+		if (true && true || false) System.out.println("3."+true);
+		else System.out.println("3."+false);
+		
+		//4
+		if (false && false || true) System.out.println("4."+true);
+		else System.out.println("4."+false);
+		
+		//5
+		if (false && true || false) System.out.println("5."+true);
+		else System.out.println("5."+false);
+		
+		//6
+		if (true || false && true) System.out.println("6."+true);
+		else System.out.println("6."+false);
+		
+		//7
+		if (true || true && false) System.out.println("7."+true);
+		else System.out.println("7."+false);
 		
 		
 		

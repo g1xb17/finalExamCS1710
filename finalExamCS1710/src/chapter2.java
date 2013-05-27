@@ -7,8 +7,7 @@ import javax.swing.JOptionPane;
 import static java.lang.System.out;
 public class chapter2 { 	
 	public static int rand(int y) {
-		int x = (int) Math.floor(1+Math.random()*y); //PEDMAS; Parenthesis then Exponents, Division then Multiplication, etc.
-		int a;	
+		int x = (int) Math.floor(1+Math.random()*y); //PEDMAS; Parenthesis then Exponents, Division then Multiplication, etc.	
 		return x;
 	}
 	public static void main(String[] args) {
